@@ -1,0 +1,37 @@
+[user]
+	name = Tommy Ivarsson
+	email = tommy.ivarsson@gmail.com
+	editor = vim
+[github]
+	user = tomeo
+[core]
+	excludesfile = ~/.gitignore_global
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+	ui = auto
+	page = true
+[alias]
+	br = branch
+	ci = commit
+	cl = clone
+	co = checkout
+	di = diff
+	diffc = diff --cached
+	dic = diff --cached
+	h = help
+	cp = cherry-pick
+	ft = fetch
+	pu = pull
+	l = log
+	log1 = log --pretty=oneline
+	logs = log --stat
+	lol = log --graph --decorate --pretty=oneline --abbrev-commit
+	lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+	ls = ls-files
+	rb = rebase
+	st = status
+	stat = status
+	svn-status = diff --name-status remotes/git-svn
+	sub = submodule
